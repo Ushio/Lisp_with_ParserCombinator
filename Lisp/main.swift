@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 enum List<T> {
     case Cons(T, () -> List<T>)
     case Nil
